@@ -1,0 +1,10 @@
+[package]
+name = "Discord_Channel_Downloader"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+reqwest = { version = "0.11.8", features = ["json"] }
+tokio = { version = "1.15.0", features = ["full"] }
+json = { version = "0.12.4" }
+uuid = { version = "0.8.2", features = ["v4"] }

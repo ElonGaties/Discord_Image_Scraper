@@ -1,0 +1,25 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "cppvsdbg",
+            "request": "launch",
+            "name": "Win Debug",
+            "program": "${workspaceFolder}/target/debug/Discord_Channel_Downloader.exe",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "externalConsole": true
+        },
+        {
+            "name": "LLDB Debug",
+            "type": "lldb",
+            "request": "launch",
+            "program": "${workspaceRoot}/target/debug/Discord_Channel_Downloader.exe",
+            "args": [],
+            "cwd": "${workspaceRoot}",
+        }
+    ]
+}
